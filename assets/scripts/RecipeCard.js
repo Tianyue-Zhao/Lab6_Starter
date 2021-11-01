@@ -120,12 +120,14 @@ class RecipeCard extends HTMLElement {
     var t = document.createTextNode(convertTime(searchForKey(data, 'totalTime')));
     if(searchForKey(data, 'ratingValue') != undefined)
     {
-      var reviews = document.createTextNode(searchForKey(data, 'ratingValue'));
+      var reviews = searchForKey(data, 'ratingValue');
+      var review_float = parseFloat(reviews);
+      reviews = document.createTextNode(reviews);
       span.append(document.createTextNode(searchForKey(data, 'ratingValue')));
       div.append(span);
       let span2 = document.createElement('span');
       var img2 = document.createElement("img");
-      if(reviews < 0.5)
+      if(review_float < 0.5)
       {
         img2.setAttribute('src', "assets/images/icons/0-star.svg");
         img2.setAttribute('alt', "0 stars");
@@ -135,7 +137,7 @@ class RecipeCard extends HTMLElement {
         div.append(span2);
 
       }
-      else if(reviews >= 0.5 && reviews < 1.5)
+      else if(review_float >= 0.5 && review_float < 1.5)
       {
         img2.setAttribute('src', "assets/images/icons/1-star.svg");
         img2.setAttribute('alt', "1 star");
@@ -144,7 +146,7 @@ class RecipeCard extends HTMLElement {
         span2.append(totalReviews);
         div.append(span2);
       }
-      else if(reviews >= 1.5 && reviews < 2.5)
+      else if(review_float >= 1.5 && review_float < 2.5)
       {
         img2.setAttribute('src', "assets/images/icons/2-star.svg");
         img2.setAttribute('alt', "2 stars");
@@ -153,7 +155,7 @@ class RecipeCard extends HTMLElement {
         span2.append(totalReviews);
         div.append(span2);
       }
-      else if(reviews >= 2.5 && reviews < 3.5)
+      else if(review_float >= 2.5 && review_float < 3.5)
       {
         img2.setAttribute('src', "assets/images/icons/3-star.svg");
         img2.setAttribute('alt', "3 stars");
@@ -162,7 +164,7 @@ class RecipeCard extends HTMLElement {
         span2.append(totalReviews);
         div.append(span2);
       }
-      else if(reviews >= 3.5 && reviews < 4.5)
+      else if(review_float >= 3.5 && review_float < 4.5)
       {
         img2.setAttribute('src', "assets/images/icons/4-star.svg");
         img2.setAttribute('alt', "4 stars");
