@@ -1,0 +1,229 @@
+{
+"@context": "http://schema.org",
+
+"@type": ["Recipe"]
+,"headline": "Caesar Salad"
+,"datePublished": "2009-09-01T20:00:00.000-04:00"
+,"dateModified": "2021-07-03T11:29:08.361-04:00"
+,"author": [
+{"@type": "Person"
+,"name": "Elise Bauer"
+,"description": "Elise founded Simply Recipes in 2003 and led the site until 2019. She has an MA in Food Research from Stanford University."
+,"jobTitle": "Founder"
+,"sameAs": [
+"https://www.instagram.com/elisebauer/",
+"https://www.simplyrecipes.com/elise-bauer-5091824"
+]
+,"knowsAbout": ["Scratch cooking with whole ingredients"]
+,"alumniOf": [
+{
+"@type": "Organization",
+"Name": "Stanford University: BS in Environmental Science; MA in Food Research; MBA from the Graduate School of Business "
+}
+]
+}
+]
+,"description": "This Classic Caesar Salad with romaine lettuce, homemade croutons, Parmesan cheese, and easy homemade Caesar dressing is sure to please everyone. Plus, you’ll never want to buy Caesar dressing again!"
+,"image": [
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/RSrVdzJUJRISalq89-bvJtXeRpE=/1800x1012/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__09__caesar-salad-horiz-a-1800-4a465eb53456465091e34138675259c2.jpg",
+"height": 1012,
+"width": 1800
+},
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/C7Etb8jckjadvA2euBiCQhItA94=/1600x1200/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__09__caesar-salad-horiz-a-1800-4a465eb53456465091e34138675259c2.jpg",
+"height": 1200,
+"width": 1600
+},
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/1U2L-g9WmJlhIl1dkMNf1Uh8F3Q=/1200x1200/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__09__caesar-salad-horiz-a-1800-4a465eb53456465091e34138675259c2.jpg",
+"height": 1200,
+"width": 1200
+}
+]
+,"video": {
+"@type": "VideoObject",
+"contentUrl": "https://cdn.jwplayer.com/videos/hcYEwafr-tXzwfO7V.mp4",
+"description": "You don't need to go to a restaurant to taste a fresh Caesar salad. In this video, you'll learn helpful tips and tricks to make the easy, delicious, and satisfying dish. The classic salad dressing is made with olive oil, garlic, and anchovies. Allow the strong flavors to sit for a half hour before toasting the croutons and adding eggs to the dressing. Tear off chunks of romaine lettuce by hand, tossing in Parmesan cheese.",
+"duration": "PT1M13S",
+"name": "Caesar Salad With Homemade Caesar Dressing Recipe",
+"thumbnailUrl": "https://cdn.jwplayer.com/v2/media/hcYEwafr/poster.jpg?width=720",
+"uploadDate": "2021-08-10T14:29:27.856Z"}
+,"publisher": {
+"@type": "Organization",
+"name": "Simply Recipes",
+"url": "https://www.simplyrecipes.com",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+"width": 1125,
+"height": 320
+},
+"brand": "Simply Recipes"
+, "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#editorial-guidelines"
+}
+,"name": "Caesar Salad"
+,"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.4",
+"ratingCount": "44"
+}
+,"keywords": "Crouton, Garlic, Romaine Lettuce, Salad, American"
+,"nutrition": {
+"@type": "NutritionInformation"
+,"calories": "709 kcal"
+,"carbohydrateContent": "81 g"
+,"cholesterolContent": "79 mg"
+,"fiberContent": "16 g"
+,"proteinContent": "27 g"
+,"saturatedFatContent": "7 g"
+,"sodiumContent": "1293 mg"
+,"sugarContent": "13 g"
+,"fatContent": "34 g"
+,"servingSize": "Serves 4-6 for a main course or up to 8-12 for a side salad"
+,"unsaturatedFatContent": "0 g"
+}
+,"prepTime": "PT30M"
+, "recipeCategory": ["Salad","Crouton","Garlic","Romaine Lettuce","Salad"]
+,"recipeCuisine": ["American"]
+,"recipeIngredient": [
+"1/2 cup high quality extra virgin olive oil, plus more for brushing",
+"4 cloves garlic, minced",
+"1 baguette, preferably a day old, thinly sliced",
+"1/4 cup fresh lemon juice (plus more to taste)",
+"4 ounces Parmesan cheese, grated",
+"1 teaspoon anchovy paste, or 1-2 anchovies, minced",
+"2 eggs",
+"1/4 teaspoon freshly ground black pepper (or to taste)",
+"1/2 teaspoon salt (or to taste)",
+"4-6 small heads of romaine lettuce, rinsed, patted dry, wilted outer leaves discarded" ]
+,"recipeInstructions": [
+{
+"@type": "HowToStep"
+,"text": "Combine olive oil and garlic: In a very large bowl, whisk together 1/2 cup olive oil and garlic. Let sit for at least half an hour."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/4F0eU6rG_mKbulXezMB0kvncvfo=/1200x800/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__09__broil-croutons-for-caesar-salad-68d04c8411b94ed8a802f7655f4c5938.jpg",
+"height": 800,
+"width": 1200
+}
+,"text": "Make the toasted croutons: While the garlic is sitting, make the croutons. Spread the baguette slices out on a baking sheet. (You may need to do in batches.) Brush or spray with olive oil (or melted butter). If you want garlicky croutons, dip pastry brush in the garlic infused oil you have sitting in Step 1. Broil for a couple of minutes until the tops are lightly browned. (Note: do not walk away, these can easily go from browned to burnt.) Remove and let cool. The steps up until this point can be made ahead."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/6eKpGGNeccI0AC7Hgok-v_gNono=/1200x800/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__09__whisk-homemade-caesar-salad-dressing-a4fa9aa677a0418d8a5cc25a3c89df9d.jpg",
+"height": 800,
+"width": 1200
+}
+,"text": "Make the dressing: Add minced anchovies (or anchovy paste, if using) and eggs to the oil-garlic mixture. Whisk until creamy. Add salt and pepper and 1/4 cup of lemon juice. Whisk in half of the Parmesan cheese. Taste, add more lemon juice, salt and pepper to taste. The lemon should give an edge to the dressing, but not overwhelm it."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/_1ZgqwSDXPDeTZpO__y-TTDx-zs=/1200x800/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__09__tearing-romaine-lettuce-for-caesar-salad-df45544d64ac4cc784d02870a954f2c1.jpg",
+"height": 800,
+"width": 1200
+}
+,"text": "Tear off chunks of romaine lettuce: Using your hands, tear off chunks of lettuce from the heads of romaine lettuce (do not use a knife to cut). Add to the dressing and toss until coated. Add the rest of the Parmesan cheese, and toss."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/GMSgCg6oxPyuw2J4IQeymmhGPW8=/640x881/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__09__caesar-salad-vertical-b-640-29f7bc4772f449c885f8862e23ea64e8.jpg",
+"height": 881,
+"width": 640
+}
+,"text": "Combine and serve: Coarsely chop the toasted bread into croutons and add to the salad. Brush in any crumbs from chopping the bread, too. Toss and serve immediately."
+} ]
+,"recipeYield": "6"
+,"totalTime": "PT30M"
+,"review": [
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Robin Donovan"
+},
+"reviewBody": "I did not love this recipe. The dressing was very thin and not terribly flavorful. I ended up adding a lot more lemon, anchovy, and cheese. Next time I would use just the egg yolks and a lot less oil."
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Tom C"
+},
+"reviewBody": "A nice addition to the dressing is a couple of dashes of Tabasco sauce. It goes really well.\n\n\n\nWhen I go to a restaurant and order a Caesar salad, I always ask for some Tabasco to put on top."
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Crystal Verduzco"
+},
+"reviewBody": "How many people does this feed? I am just making for me and my boyfriend!"
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Terrie"
+},
+"reviewBody": "What are the calories for the salad?"
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Jayne"
+},
+"reviewBody": "Delicious. Made croutons with butter &#38; cut them small. Recipe is enough for quite a lot of romaine. Will try to make half the recipe (Used ersatz eggs, so it's possible)."
+}
+]
+,"mainEntityOfPage": {
+"@type": ["WebPage"]
+,"@id": "https://www.simplyrecipes.com/recipes/caesar_salad/"
+,"breadcrumb": {
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "https://www.simplyrecipes.com/salad-recipes-5091411",
+"name": "Salads"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "https://www.simplyrecipes.com/easy-salad-recipes-5091403",
+"name": "Easy Salads"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@id": "https://www.simplyrecipes.com/recipes/caesar_salad/",
+"name": "Caesar Salad with Homemade Caesar Dressing Recipe"
+}
+}
+]
+}
+}
+, "about": [
+]		
+}
