@@ -130,7 +130,6 @@ class RecipeCard extends HTMLElement {
       var rating_count = searchForKey(data, 'ratingCount');
       if(!rating_count)
       {
-        alert("Hi!");
         rating_count = searchForKey(data, 'reviewCount');
       }
       if(review_float < 0.5)
