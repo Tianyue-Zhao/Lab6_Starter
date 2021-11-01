@@ -127,12 +127,18 @@ class RecipeCard extends HTMLElement {
       div.append(span);
       let span2 = document.createElement('span');
       var img2 = document.createElement("img");
+      var rating_count = searchForKey(data, 'ratingCount');
+      if(!rating_count)
+      {
+        alert("Hi!");
+        rating_count = searchForKey(data, 'reviewCount');
+      }
       if(review_float < 0.5)
       {
         img2.setAttribute('src', "assets/images/icons/0-star.svg");
         img2.setAttribute('alt', "0 stars");
         div.append(img2);
-        var totalReviews = document.createTextNode( "(" + searchForKey(data, 'ratingCount') + ")");
+        var totalReviews = document.createTextNode( "(" + rating_count + ")");
         span2.append(totalReviews);
         div.append(span2);
 
@@ -142,7 +148,7 @@ class RecipeCard extends HTMLElement {
         img2.setAttribute('src', "assets/images/icons/1-star.svg");
         img2.setAttribute('alt', "1 star");
         div.append(img2);
-        var totalReviews = document.createTextNode( "(" + searchForKey(data, 'ratingCount') + ")");
+        var totalReviews = document.createTextNode( "(" + rating_count + ")");
         span2.append(totalReviews);
         div.append(span2);
       }
@@ -151,7 +157,7 @@ class RecipeCard extends HTMLElement {
         img2.setAttribute('src', "assets/images/icons/2-star.svg");
         img2.setAttribute('alt', "2 stars");
         div.append(img2);
-        var totalReviews = document.createTextNode( "(" + searchForKey(data, 'ratingCount') + ")");
+        var totalReviews = document.createTextNode( "(" + rating_count + ")");
         span2.append(totalReviews);
         div.append(span2);
       }
@@ -160,7 +166,7 @@ class RecipeCard extends HTMLElement {
         img2.setAttribute('src', "assets/images/icons/3-star.svg");
         img2.setAttribute('alt', "3 stars");
         div.append(img2);
-        var totalReviews = document.createTextNode( "(" + searchForKey(data, 'ratingCount') + ")");
+        var totalReviews = document.createTextNode( "(" + rating_count + ")");
         span2.append(totalReviews);
         div.append(span2);
       }
@@ -169,7 +175,7 @@ class RecipeCard extends HTMLElement {
         img2.setAttribute('src', "assets/images/icons/4-star.svg");
         img2.setAttribute('alt', "4 stars");
         div.append(img2);
-        var totalReviews = document.createTextNode( "(" + searchForKey(data, 'ratingCount') + ")");
+        var totalReviews = document.createTextNode( "(" + rating_count + ")");
         span2.append(totalReviews);
         div.append(span2);
       }
@@ -178,7 +184,7 @@ class RecipeCard extends HTMLElement {
         img2.setAttribute('src', "assets/images/icons/5-star.svg");
         img2.setAttribute('alt', "5 stars");
         div.append(img2);
-        var totalReviews = document.createTextNode( "(" + searchForKey(data, 'ratingCount') + ")");
+        var totalReviews = document.createTextNode( "(" + rating_count + ")");
         span2.append(totalReviews);
         div.append(span2);
       }
